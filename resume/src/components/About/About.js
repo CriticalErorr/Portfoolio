@@ -1,44 +1,66 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 export default class About extends Component {
   render() {
     return (
-  
-        <section id="about">
-          <div className="row">
-            <div className="three columns">
-              <img className="profile-pic" src="images/profilepic.jpg" alt="" />
-            </div>
-            <div className="nine columns main-col">
-              <h2>About Me</h2>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
-              </p>
-              <div className="row">
-                <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
-                    <span>Costa Epshtein</span><br />
-                    <span>Israel Ashdod<br />
-                      Ameleh Elyakim , 13
-                    </span><br />
-                    <span>(+972)52-538-1655</span><br />
-                    <span>anyone@website.com</span>
-                  </p>
-                </div>
-                <div className="columns download">
-                  <p>
-                    <a href="#" className="button"><i className="fa fa-download" />Download Resume</a>
-                  </p>
-                </div>
-              </div> {/* end row */}
-            </div> {/* end .main-col */}
+      <section id="about">
+        <div className="row">
+          <div className="three columns">
+            <img className="profile-pic" src="images/profilepic.jpg" alt="" />
           </div>
-        </section>
-      );
-    }
-  };
+          <div className="nine columns main-col">
+            <h2>About Me</h2>
+            <p>
+              Rational Hippie, Indie Hacker, Pragmatic Idealist. First
+              generation American born and raised in the midwest. Worked the
+              corporate 9-5 until the golden handcuffs felt too heavy (and I
+              paid off all my high interest debt) and did a six month roadtrip
+              to 20 National Parks in 2021. Since then I've been a developer,
+              consultant, founder, and nomad living on my terms and building
+              businesses to achieve financial freedom. Currently Angel Squad
+              Member and Chicago Local Lead @{" "}
+              <a href="https://www.hustlefund.vc/squad">Hustle Fund VC</a>, CTO
+              @ <a href="https://www.sangcash.com">SangCash</a>, and Esoteric
+              Thinkboi @{" "}
+              <a href="https://www.twitter.com/abusyhippie">Twitter</a>{" "}
+            </p>
+            <div className="row">
+              <div className="columns contact-details">
+                <h2>Contact Details</h2>
+                <p className="address">
+                  <span>Bart Hofkin</span>
+                  <br />
+                  <span>
+                    Chicago, IL
+                    <br />
+                    United States
+                  </span>
+                  <br />
+                  <span>(630)296-7466</span>
+                  <br />
+                  <span>bart@hofkin.me</span>
+                  <br />
+                  <span>
+                    <a href="https://www.upwork.com/freelancers/~01f084616d9594ef10?s=1017484851352698996">
+                      <b>Hire me on Upwork</b>
+                    </a>
+                  </span>
+                </p>
+              </div>
+              <div className="columns download">
+                <p>
+                  <a href="images/resume.pdf" className="button">
+                    <i className="fa fa-download" />
+                    Download Resume
+                  </a>
+                </p>
+              </div>
+            </div>{" "}
+            {/* end row */}
+          </div>{" "}
+          {/* end .main-col */}
+        </div>
+      </section>
+    );
+  }
+}

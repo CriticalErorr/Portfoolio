@@ -66,10 +66,10 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: rgb(177, 177, 177);
    margin: 0 auto;
    width: 70%;
-   text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
@@ -236,14 +236,14 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #resume {
-   background: #fff;
+   background: rgb(230, 230, 230);
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #11ABB0; }
-#resume a:hover, #resume a:focus { color: #313131; }
+#resume a, #resume a:visited  { color: rgb(18, 79, 114); }
+#resume a:hover, #resume a:focus { color: #3099ca; }
 
 #resume h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
@@ -326,17 +326,17 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .photoshop {
-  	width: 60%;
+  	width: 75%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
 .illustrator {
-  	width: 55%;
+  	width: 70%;
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
 .wordpress {
-  	width: 50%;
+  	width: 60%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
